@@ -24,3 +24,5 @@ export const lambdaHandler = async (event, context) => {
         return err;
     }
 };
+
+//sam local invoke -e ./lambda/lambda_event.json LambdaDemoFunction
