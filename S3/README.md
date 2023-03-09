@@ -1,8 +1,8 @@
 Configuring S3 backend for storing Terraform Sate
 
-export TF_BACKEND_BUCKET=terraform-bucket-tjprohammer
-export TF_BACKEND_KEY=tjprohammer-terraform-state.tfstate
-export TF_BACKEND_REGION=us-west-2
+export TF_BACKEND_BUCKET=
+export TF_BACKEND_KEY=
+export TF_BACKEND_REGION=
 
 
   -backend-config="bucket=${TF_BACKEND_BUCKET}" \  
